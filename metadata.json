@@ -1,0 +1,6 @@
+{
+  "name": "MARS//GUIDE",
+  "description": "Interplanetary Survival Guide: Martian Map for the 2026 NASA Space Apps Challenge, exploring Mars through authentic NASA planetary datasets, terrain, missions, and science targets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

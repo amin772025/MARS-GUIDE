@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دليل المريخ</string>
+    <string name="app_subtitle">استكشف المريخ من خلال بيانات وكالة ناسا</string>
+    <string name="challenge_title">تحدي ناسا لتطبيقات الفضاء 2026</string>
+    <string name="challenge_track">دليل البقاء بين الكواكب: خريطة المريخ</string>
+
+    <!-- Navigation -->
+    <string name="nav_explore">استكشاف</string>
+    <string name="nav_map">الخريطة</string>
+    <string name="nav_missions">المهام</string>
+    <string name="nav_saved">المحفوظات</string>
+    <string name="nav_about">حول التطبيق</string>
+    <string name="nav_planner">تخطيط المسار</string>
+
+    <!-- Explore Screen -->
+    <string name="explore_quick_access">الوصول السريع</string>
+    <string name="explore_featured_locations">مواقع علمية مميزة</string>
+    <string name="explore_mission_highlights">أبرز مهام ناسا</string>
+    <string name="explore_recent_saved">نقاط المسار المحفوظة</string>
+    <string name="explore_educational">مدخل تعليمي</string>
+    <string name="explore_launch_map">فتح خريطة المريخ</string>
+    <string name="explore_open_planner">تخطيط مسار مريخي</string>
+    <string name="explore_search_hint">ابحث عن مواقع، فوهات، مركبات جوالة…</string>
+
+    <!-- Map Screen -->
+    <string name="map_title">خريطة سطح المريخ</string>
+    <string name="map_subtitle">إسقاط مركز المريخ (المرجع القياسي IAU/IAG 2000)</string>
+    <string name="map_coordinates_label">الإحداثيات المحددة:</string>
+    <string name="map_elevation_label">ارتفاع MOLA:</string>
+    <string name="map_elevation_unit">%1$d متر</string>
+    <string name="map_inspect_details">تحليل الموقع</string>
+    <string name="map_save_location">حفظ الموقع</string>
+    <string name="map_saved_success">تم حفظ الموقع في التخزين المحلي</string>
+    <string name="map_saved_already">الموقع محفوظ بالفعل</string>
+    <string name="map_pan_zoom_hint">اسحب للتنقل والضم للتكبير والتصغير على سطح المريخ</string>
+    <string name="map_reset_view">إعادة ضبط العرض</string>
+    <string name="map_layers">الطبقات</string>
+    <string name="map_layer_topography">التضاريس (MOLA)</string>
+    <string name="map_layer_grid">شبكة خطوط الطول والعرض (30°)</string>
+    <string name="map_layer_rovers">مواقع هبوط المركبات</string>
+    <string name="map_layer_features">المعالم الجيولوجية</string>
+
+    <!-- Location Analysis Screen -->
+    <string name="analysis_title">تحليل الموقع</string>
+    <string name="analysis_tab_overview">نظرة عامة</string>
+    <string name="analysis_tab_terrain">التضاريس</string>
+    <string name="analysis_tab_science">العلوم</string>
+    <string name="analysis_tab_missions">المهام</string>
+    <string name="analysis_tab_imagery">الصور</string>
+    <string name="analysis_tab_sources">المصادر</string>
+    
+    <string name="card_overview_title">نظرة عامة كوكبية</string>
+    <string name="card_terrain_title">التضاريس والارتفاع</string>
+    <string name="card_science_title">السياق الجيولوجي والعلمي</string>
+    <string name="card_missions_title">المهام ومركبات الهبوط القريبة</string>
+    <string name="card_imagery_title">صور ناسا المدارية والسطحية</string>
+    <string name="card_sources_title">مصادر بيانات ناسا وسجلات PDS</string>
+
+    <!-- Coordinates format -->
+    <string name="coord_lat_format">عرض: %1$.4f° %2$s</string>
+    <string name="coord_lon_format">طول: %1$.4f° شرقاً</string>
+    <string name="coord_full_format">%1$.4f° %2$s، %3$.4f° شرقاً</string>
+    <string name="coord_north">شمالاً</string>
+    <string name="coord_south">جنوباً</string>
+    <string name="coord_datum_note">المرجع: مجسم جاذبية المريخ MOLA (خط أساس 0 كم)</string>
+
+    <!-- Missions Screen -->
+    <string name="missions_title">مهام ناسا إلى المريخ</string>
+    <string name="missions_subtitle">المركبات المدارية والجوالة ومحطات الهبوط</string>
+    <string name="missions_filter_all">الكل</string>
+    <string name="missions_filter_rovers">مركبات جوالة</string>
+    <string name="missions_filter_orbiters">مركبات مدارية</string>
+    <string name="missions_filter_landers">مركبات هبوط</string>
+    <string name="mission_instruments">الأجهزة العلمية الرئيسية:</string>
+    <string name="mission_landing_site">موقع الهبوط:</string>
+    <string name="mission_landing_date">تاريخ الهبوط:</string>
+    <string name="mission_status">الحالة:</string>
+    <string name="mission_view_nasa_source">عرض مصدر ناسا</string>
+
+    <!-- Route Planner Screen -->
+    <string name="planner_title">مخطط المسارات المريخية</string>
+    <string name="planner_subtitle">مسار الدائرة العظمى على كروية المريخ (نق = 3,389.5 كم)</string>
+    <string name="planner_start_point">نقطة الانطلاق</string>
+    <string name="planner_destination">نقطة الوصول</string>
+    <string name="planner_select_prompt">حدد موقعاً…</string>
+    <string name="planner_calculate">حساب المسار</string>
+    <string name="planner_distance_label">المسافة التقديرية (الدائرة العظمى)</string>
+    <string name="planner_distance_value">%1$.1f كم (%2$.1f ميل)</string>
+    <string name="planner_bearing_label">الاتجاه الأولي الحقيقي</string>
+    <string name="planner_bearing_value">%1$.1f°</string>
+    <string name="planner_waypoints_count">تم إنشاء %1$d نقطة مسار</string>
+    <string name="planner_save_route">حفظ المسار</string>
+    <string name="planner_route_saved">تم حفظ المسار في التخزين المحلي</string>
+    <string name="planner_disclaimer_title">تنبيه ملاحة علمي</string>
+    <string name="planner_disclaimer_body">يتم حساب المسافة بناءً على النموذج الكروي للمريخ (نق = 3,389.5 كم). هذا مسار كوكبي تقريبي ولا يحلل مخاطر التضاريس أو انحدار المنحدرات أو ملاءمة البقاء البشري.</string>
+
+    <!-- Saved Screen -->
+    <string name="saved_title">البيانات الكوكبية المحفوظة</string>
+    <string name="saved_tab_locations">المواقع</string>
+    <string name="saved_tab_routes">المسارات</string>
+    <string name="saved_tab_targets">الأهداف العلمية</string>
+    <string name="saved_empty_locations">لا توجد مواقع محفوظة بعد. يمكنك حفظ المواقع من الخريطة أو المستكشف.</string>
+    <string name="saved_empty_routes">لا توجد مسارات محفوظة بعد. قم بإنشاء وحفظ مسار عبر مخطط المسارات.</string>
+    <string name="saved_empty_targets">لا توجد أهداف علمية محفوظة بعد.</string>
+    <string name="saved_delete_confirm">حذف العنصر</string>
+
+    <!-- About & Sources Screen -->
+    <string name="about_title">مصادر بيانات ناسا والإسناد</string>
+    <string name="about_attribution_title">الإسناد والتوثيق الرسمي</string>
+    <string name="about_attribution_text">البيانات المستخدمة في دليل المريخ مشتقة من الأرشيفات العامة لعلوم الكواكب التابعة لناسا، بما في ذلك نظام بيانات الكواكب (PDS)، ومركز علوم الجيولوجيا الفلكية USGS، وأرشيفات مهام المريخ في JPL. هذا التطبيق هو مشروع مستقل لتحدي تطبيقات الفضاء الدولي 2026 وليس تطبيقاً رسمياً لناسا ولا يحظى باعتماد رسمي منها.</string>
+    <string name="about_datasets_title">مجموعات البيانات المدمجة الرئيسية</string>
+    <string name="about_pds_title">نظام بيانات الكواكب التابع لناسا (PDS)</string>
+    <string name="about_pds_desc">توفر عُقد العلوم الجيولوجية والتصوير حزم بيانات علمية مؤرشفة، وبيانات MOLA الطبوغرافية، ومنتجات المهام المعايرة.</string>
+    <string name="about_usgs_title">دليل أسماء معالم المريخ (USGS)</string>
+    <string name="about_usgs_desc">التسميات الكوكبية المعتمدة رسمياً من الاتحاد الفلكي الدولي (IAU) والإحداثيات المركزية الموثقة.</string>
+    <string name="about_jpl_title">برنامج استكشاف المريخ (NASA/JPL)</string>
+    <string name="about_jpl_desc">القياسات عن بُعد، إحداثيات مواقع الهبوط، وفهارس الأجهزة لمركبات كيوريوسيتي، بيرسيفيرانس، سبيريت، أبورتيونيتي، و MRO.</string>
+    <string name="about_hirise_title">بيانات كاميرا HiRISE و CTX (MRO)</string>
+    <string name="about_hirise_desc">صور فائقة الدقة لسطح المريخ ونماذج التضاريس الرقمية ثلاثية الأبعاد (DTMs).</string>
+
+    <!-- Search -->
+    <string name="search_title">البحث الشامل في المريخ</string>
+    <string name="search_query_hint">ابحث عن فوهات، براكين، خوانق، مهام…</string>
+    <string name="search_no_results">لم يتم العثور على معالم أو مهام تطابق “%1$s”</string>
+    <string name="search_filter_all">كافة النتائج</string>
+    <string name="search_filter_craters">فوهات صدمية</string>
+    <string name="search_filter_volcanoes">براكين</string>
+    <string name="search_filter_canyons">أودية وخوانق</string>
+    <string name="search_filter_plains">سهول كوكبية</string>
+    <string name="search_filter_rovers">مواقع المركبات</string>
+
+    <!-- Educational Primer -->
+    <string name="edu_title">مدخل إلى علوم المريخ</string>
+    <string name="edu_q_elevation">ما هو ارتفاع سطح المريخ (Areoid)؟</string>
+    <string name="edu_a_elevation">لا يوجد مستوى سطح بحر على المريخ. يعرف علماء الكواكب مستوى الصفر بأنه مجسم جاذبية MOLA: سطح تساوي الجهد بمتوسط نصف قطر استوائي 3,396.19 كم، تم قياسه بواسطة ماسح المريخ الشامل.</string>
+    <string name="edu_q_crater">كيف تتشكل فوهات المريخ؟</string>
+    <string name="edu_a_crater">فوهات صدمية تشكلت بفعل اصطدام الكويكبات الفائقة السرعة عبر مليارات السنين. نظراً لغلاف المريخ الجوي الرقيق وغياب حركة الصفائح التكتونية، ظل تاريخ الاصطدامات محفوظاً بدقة.</string>
+    <string name="edu_q_hirise">ما هي كاميرا HiRISE؟</string>
+    <string name="edu_a_hirise">تجربة التصوير العلمي عالي الدقة (HiRISE) على متن مركبة استطلاع المريخ تميز المعالم حتى دقة 30 سم لكل بكسل، مما يسمح بتتبع مسارات المركبات والطبقات الرسوبية.</string>
+    <string name="edu_q_dtm">ما هو نموذج التضاريس الرقمي (DTM)؟</string>
+    <string name="edu_a_dtm">تمثيل نقطي ثلاثي الأبعاد لطبوغرافية سطح المريخ، يُنشأ عن طريق التصوير المجسم المزدوج من مدار المريخ.</string>
+
+    <!-- State & Error messages -->
+    <string name="status_online">متصل ببيانات ناسا الكوكبية</string>
+    <string name="status_offline">وضع عدم الاتصال (استخدام البيانات المحفوظة)</string>
+    <string name="error_network">بيانات ناسا غير متوفرة مؤقتاً. يتم عرض السجلات الكوكبية المحلية المحفوظة.</string>
+    <string name="error_retry">إعادة المحاولة</string>
+    <string name="error_empty">لا توجد بيانات متاحة لهذا الاستعلام.</string>
+    <string name="loading_data">جارٍ تحميل بيانات علوم الكواكب من ناسا…</string>
+    <string name="action_open_external">فتح سجل ناسا</string>
+    <string name="action_dismiss">إغلاق</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_delete">إزالة</string>
+    <string name="action_details">التفاصيل</string>
+    <string name="action_plan_route">تخطيط المسار إلى هنا</string>
+
+    <!-- Scientific Data Layer & Provenance Strings -->
+    <string name="layer_basemap">إسقاط خريطة أساس المريخ</string>
+    <string name="layer_topography">ارتفاع MOLA وثنائية القشرة</string>
+    <string name="layer_graticule">شبكة خطوط الطول والعرض (30°)</string>
+    <string name="layer_features">المعالم الجيولوجية الرئيسية</string>
+    <string name="layer_landers">مواقع الهبوط التاريخية</string>
+    <string name="layer_rovers">مركبات ناسا الجوالة ومساراتها</string>
+    <string name="layer_targets">الأهداف العلمية الكوكبية</string>
+    <string name="layer_route">مسار الرحلة النشط</string>
+
+    <string name="badge_real_live">بيانات حية مباشرة</string>
+    <string name="badge_static_source">مشتقة من مصادر ثابتة</string>
+    <string name="badge_calculated">محسوبة بالتطبيق</string>
+    <string name="badge_estimated">تقريب تقديري</string>
+
+    <string name="elev_status_mola">مرجع مجسم MOLA من ناسا (±1م)</string>
+    <string name="elev_status_interpolated">استيفاء خطي بين نقطتي البداية والنهاية — ليس نموذج تضاريس مستمر</string>
+    <string name="elev_status_unavailable">الارتفاع غير متوفر — لا يوجد مسح تضاريسي مستمر</string>
+
+    <string name="route_elev_disclaimer">حالة مقطع الارتفاع: ارتفاعات نقاط المسار مستوفاة خطياً بين نقطتي البداية والنهاية — وليست نموذج ارتفاعات رقمياً مستمراً. الارتفاعات المؤكدة متوفرة فقط في النقاط المفهرسة.</string>
+    <string name="route_traversability_disclaimer">تنبيه الملاحة: مسار هندسي كروي فقط. لا يحلل التطبيق مخاطر المنحدرات المحلية أو الصخور أو الجروف أو الكثبان الرملية أو قدرة عجلات المركبات.</string>
+    <string name="nearest_feature_format">الأقرب: %1$s (%2$.1f كم، زاوية %3$.0f°)</string>
+
+    <!-- Phase 4 Spacecraft Experience & Settings -->
+    <string name="console_title">منصة عمليات مهمة المريخ</string>
+    <string name="console_sol_readout">اليوم المريخي 1042 // وحدة الاستكشاف</string>
+    <string name="console_nav_status">نظام الملاحة: جاهز</string>
+    <string name="console_science_status">أرشيف العلوم: متصل</string>
+    <string name="console_demo_btn">بدء العرض التوضيحي للمهمة</string>
+    <string name="console_demo_subtitle">جولة تفاعلية في أنظمة التطبيق</string>
+    <string name="viewport_title">نافذة المراقبة الكوكبية</string>
+    <string name="viewport_orbital">المنظور المداري</string>
+    <string name="viewport_horizon">أفق السطح المريخي</string>
+    <string name="viewport_switch_map">الانتقال إلى الخريطة العلمية الكارتوغرافية</string>
+    <string name="viewport_visual_aid_notice">عرض بصري إرشادي — البيانات العلمية الأصلية متوفرة في الخريطة</string>
+    <string name="target_acquired">تم رصد الهدف</string>
+    <string name="sound_toggle">المؤثرات الصوتية</string>
+    <string name="quality_mode">الجودة البصرية</string>
+    <string name="reduced_motion">تقليل الحركة</string>
+    <string name="quality_high">عالية (تأثير اختلاف المنظر والنجوم)</string>
+    <string name="quality_medium">متوسطة (جسيمات متوازنة)</string>
+    <string name="quality_low">منخفضة (توفير البطارية والأجهزة المتوسطة)</string>
+
+    <!-- Phase 5 Visual Transformation -->
+    <string name="mission_sol_readout">يوم مريخي %1$d | %2$s توقيت محلي</string>
+    <string name="mission_status_orbital">استطلاع مداري</string>
+    <string name="mission_status_surface">عمليات سطحية</string>
+    <string name="mission_data_integrity">مصدر موثق // ناسا PDS</string>
+    <string name="mission_guide_label">دليل المهمة</string>
+    <string name="mission_guide_desc">التوثيق التقني ومصادر البيانات لقطاع المهمة الحالي.</string>
+    <string name="nasa_media_available">وسائط ناسا متوفرة</string>
+    <string name="nasa_media_offline">غير متصل // لا توجد وسائط مخزنة</string>
+    <string name="system_ready">النظام جاهز</string>
+    <string name="initializing_system">جارٍ تشغيل دليل المريخ...</string>
+    <string name="loading_scientific_data">مزامنة البيانات العلمية...</string>
+    <string name="loading_mission_media">جلب وسائط ناسا...</string>
+    <string name="enter_mission">دخول المهمة</string>
+    <string name="data_class_procedural">عرض بصري إجرائي</string>
+    <string name="data_class_calculated">حسابات محلية</string>
+    <string name="data_class_nasa">مشتق من مصادر ناسا</string>
+    <string name="data_class_estimated">تقدير استيفائي</string>
+    <string name="view_full_source">عرض المصدر</string>
+    <string name="save_media">حفظ في الأرشيف</string>
+    <string name="target_recon">استطلاع السطح</string>
+    <string name="elevation_datum_mola">الارتفاع (مرجع MOLA)</string>
+    <string name="geological_context_label">السياق الجيولوجي</string>
+    <string name="provenance_label">مصدر البيانات</string>
+    <string name="mission_dashboard">غرفة العمليات</string>
+    <string name="exploration_targets">أهداف الاستكشاف</string>
+    <string name="rover_telemetry">بيانات المركبة (تاريخي)</string>
+    <string name="mission_archive">أرشيف المهام</string>
+    <string name="sources_and_attribution">المصادر والإسناد</string>
+    <string name="app_description">نظام متقدم لاستكشاف المريخ والملاحة العلمية.</string>
+    <!-- Phase 7 Immersive Mission Experience -->
+    <string name="mission_system_label">نظام استكشاف المريخ</string>
+    <string name="mission_control_link">رابط التحكم في المهمة</string>
+    <string name="sys_status_ready">جاهز</string>
+    <string name="sys_status_offline">غير متصل</string>
+    <string name="sys_status_available">متوفر</string>
+    <string name="boot_initializing">بدء تشغيل طاقة النظام...</string>
+    <string name="boot_comm_bus">ناقل الاتصالات جاهز</string>
+    <string name="boot_science_db">القاعدة العلمية جاهزة</string>
+    <string name="boot_media_link">رابط وسائط ناسا جاهز</string>
+    <string name="boot_carto_engine">محرك الخرائط جاهز</string>
+    <string name="command_deck_label">منصة القيادة</string>
+    <string name="audio_ambience_label">بيئة المركبة</string>
+    <string name="audio_radio_label">دردشة الراديو</string>
+    <string name="audio_ui_label">نغمات الواجهة</string>
+    <string name="audio_alerts_label">تنبيهات المهمة</string>
+    <string name="comm_link_standby">● استعداد</string>
+    <string name="comm_link_receiving">● استقبال</string>
+    <string name="view_mode_orbital">منظور مداري</string>
+    <string name="view_mode_surface">منظور السطح</string>
+    <string name="view_mode_media">وسائط المهمة</string>
+    <string name="nav_command">القيادة</string>
+    <string name="nav_archive">الأرشيف</string>
+    <string name="nav_sources">المصادر</string>
+    <string name="learn_more_prompt">انقر فوق القياسات للتعلم</string>
+    <string name="mission_audio_sim">محاكاة راديو المهمة</string>
+</resources>

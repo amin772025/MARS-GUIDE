@@ -1,0 +1,291 @@
+<resources>
+    <string name="app_name">MARS//GUIDE</string>
+    <string name="app_subtitle">Explore Mars through NASA data</string>
+    <string name="challenge_title">2026 NASA Space Apps Challenge</string>
+    <string name="challenge_track">Interplanetary Survival Guide: Martian Map</string>
+
+    <!-- Navigation -->
+    <string name="nav_explore">Explore</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_missions">Missions</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_about">About</string>
+    <string name="nav_planner">Planner</string>
+
+    <!-- Explore Screen -->
+    <string name="explore_quick_access">Quick Access</string>
+    <string name="explore_featured_locations">Featured Scientific Locations</string>
+    <string name="explore_mission_highlights">NASA Mission Highlights</string>
+    <string name="explore_recent_saved">Saved Waypoints</string>
+    <string name="explore_educational">Educational Primer</string>
+    <string name="explore_launch_map">Open Martian Map</string>
+    <string name="explore_open_planner">Plan Mars Route</string>
+    <string name="explore_search_hint">Search locations, craters, rovers…</string>
+
+    <!-- Map Screen -->
+    <string name="map_title">Martian Surface Map</string>
+    <string name="map_subtitle">Aerocentric Projection (IAU/IAG 2000 Mars Datum)</string>
+    <string name="map_coordinates_label">Selected Coordinates:</string>
+    <string name="map_elevation_label">MOLA Elevation:</string>
+    <string name="map_elevation_unit">%1$d m</string>
+    <string name="map_inspect_details">Analyze Location</string>
+    <string name="map_save_location">Save Location</string>
+    <string name="map_saved_success">Location saved to offline storage</string>
+    <string name="map_saved_already">Location already saved</string>
+    <string name="map_pan_zoom_hint">Pan &amp; pinch to zoom across Martian surface</string>
+    <string name="map_reset_view">Reset View</string>
+    <string name="map_layers">Layers</string>
+    <string name="map_layer_topography">Topography (MOLA)</string>
+    <string name="map_layer_grid">Aerocentric Grid (30°)</string>
+    <string name="map_layer_rovers">Rover Landing Sites</string>
+    <string name="map_layer_features">Geological Features</string>
+
+    <!-- Location Analysis Screen -->
+    <string name="analysis_title">Location Analysis</string>
+    <string name="analysis_tab_overview">Overview</string>
+    <string name="analysis_tab_terrain">Terrain</string>
+    <string name="analysis_tab_science">Science</string>
+    <string name="analysis_tab_missions">Missions</string>
+    <string name="analysis_tab_imagery">Imagery</string>
+    <string name="analysis_tab_sources">Sources</string>
+    
+    <string name="card_overview_title">Planetary Overview</string>
+    <string name="card_terrain_title">Topography &amp; Elevation</string>
+    <string name="card_science_title">Geological &amp; Scientific Context</string>
+    <string name="card_missions_title">Nearby Missions &amp; Landers</string>
+    <string name="card_imagery_title">NASA Orbital &amp; Surface Imagery</string>
+    <string name="card_sources_title">NASA Data Sources &amp; PDS Records</string>
+
+    <!-- Coordinates format -->
+    <string name="coord_lat_format">Lat: %1$.4f° %2$s</string>
+    <string name="coord_lon_format">Lon: %1$.4f° E</string>
+    <string name="coord_full_format">%1$.4f° %2$s, %3$.4f° E</string>
+    <string name="coord_north">N</string>
+    <string name="coord_south">S</string>
+    <string name="coord_datum_note">Datum: Mars MOLA Aeroid (0 km elevation baseline)</string>
+
+    <!-- Missions Screen -->
+    <string name="missions_title">NASA Mars Missions</string>
+    <string name="missions_subtitle">Orbiters, Rovers &amp; Surface Landers</string>
+    <string name="missions_filter_all">All</string>
+    <string name="missions_filter_rovers">Rovers</string>
+    <string name="missions_filter_orbiters">Orbiters</string>
+    <string name="missions_filter_landers">Landers</string>
+    <string name="mission_instruments">Key Instruments:</string>
+    <string name="mission_landing_site">Landing Site:</string>
+    <string name="mission_landing_date">Landing Date:</string>
+    <string name="mission_status">Status:</string>
+    <string name="mission_view_nasa_source">View NASA Source</string>
+
+    <!-- Route Planner Screen -->
+    <string name="planner_title">Mars Route Planner</string>
+    <string name="planner_subtitle">Great-Circle Trajectory on Mars Sphere (R=3,389.5 km)</string>
+    <string name="planner_start_point">Starting Point</string>
+    <string name="planner_destination">Destination Point</string>
+    <string name="planner_select_prompt">Select a location…</string>
+    <string name="planner_calculate">Calculate Trajectory</string>
+    <string name="planner_distance_label">Approximate Great-Circle Distance</string>
+    <string name="planner_distance_value">%1$.1f km (%2$.1f miles)</string>
+    <string name="planner_bearing_label">Initial True Bearing</string>
+    <string name="planner_bearing_value">%1$.1f°</string>
+    <string name="planner_waypoints_count">%1$d Waypoints Generated</string>
+    <string name="planner_save_route">Save Route</string>
+    <string name="planner_route_saved">Route saved to offline storage</string>
+    <string name="planner_disclaimer_title">Scientific Navigation Advisory</string>
+    <string name="planner_disclaimer_body">Distance is calculated using Mars spherical geodesy (R = 3,389.5 km). This is an approximate planetary trajectory and does not evaluate terrain hazards, slope steepness, or human surface survival feasibility.</string>
+
+    <!-- Saved Screen -->
+    <string name="saved_title">Saved Planetary Data</string>
+    <string name="saved_tab_locations">Locations</string>
+    <string name="saved_tab_routes">Routes</string>
+    <string name="saved_tab_targets">Science Targets</string>
+    <string name="saved_empty_locations">No saved locations yet. Pin and save locations from the map or explorer.</string>
+    <string name="saved_empty_routes">No saved routes yet. Create and save a route in the Route Planner.</string>
+    <string name="saved_empty_targets">No saved science targets yet.</string>
+    <string name="saved_delete_confirm">Remove item</string>
+
+    <!-- About & Sources Screen -->
+    <string name="about_title">NASA Data Sources &amp; Attribution</string>
+    <string name="about_attribution_title">Official Attribution</string>
+    <string name="about_attribution_text">Data used by MARS//GUIDE originates from publicly accessible NASA planetary science archives, including the NASA Planetary Data System (PDS), USGS Astrogeology Science Center, and NASA/JPL Mars Mission archives. This application is an independent submission for the 2026 NASA Space Apps Challenge and is not an official NASA application, nor is it endorsed or certified by NASA.</string>
+    <string name="about_datasets_title">Primary Integrated Datasets</string>
+    <string name="about_pds_title">NASA Planetary Data System (PDS)</string>
+    <string name="about_pds_desc">PDS Geosciences and Imaging Nodes provide archived science packets, MOLA topographic data, and calibrated mission products.</string>
+    <string name="about_usgs_title">USGS Astrogeology Mars Gazetteer</string>
+    <string name="about_usgs_desc">Official International Astronomical Union (IAU) planetary nomenclature and verified center coordinates.</string>
+    <string name="about_jpl_title">NASA/JPL Mars Exploration Program</string>
+    <string name="about_jpl_desc">Telemetry, landing site coordinates, and instrument catalogs for Curiosity, Perseverance, Spirit, Opportunity, and MRO.</string>
+    <string name="about_hirise_title">MRO HiRISE &amp; CTX Data</string>
+    <string name="about_hirise_desc">High-resolution Martian surface imagery and Digital Terrain Models (DTMs).</string>
+
+    <!-- Search -->
+    <string name="search_title">Global Mars Search</string>
+    <string name="search_query_hint">Search craters, volcanoes, canyons, missions…</string>
+    <string name="search_no_results">No Martian features or missions found matching “%1$s”</string>
+    <string name="search_filter_all">All Results</string>
+    <string name="search_filter_craters">Craters</string>
+    <string name="search_filter_volcanoes">Volcanoes</string>
+    <string name="search_filter_canyons">Chasmas / Canyons</string>
+    <string name="search_filter_plains">Planitiae / Plains</string>
+    <string name="search_filter_rovers">Rover Sites</string>
+
+    <!-- Educational Primer -->
+    <string name="edu_title">Martian Science Primer</string>
+    <string name="edu_q_elevation">What is Mars Elevation (Areoid)?</string>
+    <string name="edu_a_elevation">Mars has no sea level. Planetary scientists define zero elevation as the MOLA Areoid: an equipotential gravitational surface with an average equatorial radius of 3,396.19 km, determined by Mars Global Surveyor.</string>
+    <string name="edu_q_crater">How do Martian Craters form?</string>
+    <string name="edu_a_crater">Impact craters formed by hypervelocity asteroid collisions over billions of years. Because Mars has a thin atmosphere and no plate tectonics, billions of years of impact history remain preserved.</string>
+    <string name="edu_q_hirise">What is HiRISE?</string>
+    <string name="edu_a_hirise">The High Resolution Imaging Science Experiment (HiRISE) onboard the Mars Reconnaissance Orbiter resolves surface features as small as 30 cm per pixel, enabling identification of rover tracks and sedimentary layering.</string>
+    <string name="edu_q_dtm">What is a Digital Terrain Model (DTM)?</string>
+    <string name="edu_a_dtm">A 3D raster representation of Martian surface topography, generated by stereo photogrammetry from dual orbital observations (such as HiRISE or HRSC stereo pairs).</string>
+
+    <!-- State & Error messages -->
+    <string name="status_online">NASA Planetary Data Connected</string>
+    <string name="status_offline">Offline Mode (Using Cached Datasets)</string>
+    <string name="error_network">NASA data is temporarily unavailable. Displaying local cached planetary records.</string>
+    <string name="error_retry">Retry Connection</string>
+    <string name="error_empty">No data available for this query.</string>
+    <string name="loading_data">Loading NASA planetary science data…</string>
+    <string name="action_open_external">Open NASA Record</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Remove</string>
+    <string name="action_details">Details</string>
+    <string name="action_plan_route">Route Here</string>
+
+    <!-- Scientific Data Layer & Provenance Strings -->
+    <string name="layer_basemap">Mars Basemap Projection</string>
+    <string name="layer_topography">MOLA Elevation &amp; Dichotomy</string>
+    <string name="layer_graticule">Aerocentric Graticule (30°)</string>
+    <string name="layer_features">Major Geological Features</string>
+    <string name="layer_landers">Historic Landing Sites</string>
+    <string name="layer_rovers">NASA Rovers &amp; Odometry</string>
+    <string name="layer_targets">Planetary Science Targets</string>
+    <string name="layer_route">Active Route Trajectory</string>
+
+    <string name="badge_real_live">REAL LIVE DATA</string>
+    <string name="badge_static_source">STATIC SOURCE-DERIVED</string>
+    <string name="badge_calculated">APPLICATION-CALCULATED</string>
+    <string name="badge_estimated">ESTIMATED APPROXIMATION</string>
+
+    <string name="elev_status_mola">NASA PDS MOLA MEGDR Datum (±1m)</string>
+    <string name="elev_status_interpolated">Linear endpoint interpolation — not a DEM terrain profile</string>
+    <string name="elev_status_unavailable">Elevation Unavailable — No continuous DEM raster</string>
+
+    <string name="route_elev_disclaimer">ELEVATION PROFILE STATUS: Waypoint elevations are linearly interpolated between endpoints — NOT a continuous digital elevation model (DEM) terrain profile. MOLA MEGDR verified elevations are only available at catalogued endpoints.</string>
+    <string name="route_traversability_disclaimer">TRAVERSABILITY ADVISORY: Geodesic mathematical trajectory only. MARS//GUIDE does not evaluate local slope hazards, boulder distribution, escarpments, sand dune entrapment, or rover wheel trafficability.</string>
+    <string name="nearest_feature_format">Nearest: %1$s (%2$.1f km, %3$.0f° az)</string>
+
+    <!-- Phase 4 Spacecraft Experience & Settings -->
+    <string name="console_title">MARS//GUIDE MISSION CONSOLE</string>
+    <string name="console_sol_readout">SOL 1042 // MARTIAN EXPLORATION MODULE</string>
+    <string name="console_nav_status">NAVIGATION SYSTEM: READY</string>
+    <string name="console_science_status">SCIENCE ARCHIVE: ONLINE</string>
+    <string name="console_demo_btn">LAUNCH MISSION DEMO</string>
+    <string name="console_demo_subtitle">Interactive System Walkthrough</string>
+    <string name="viewport_title">Planetary Viewport</string>
+    <string name="viewport_orbital">Orbital Perspective</string>
+    <string name="viewport_horizon">Surface Horizon</string>
+    <string name="viewport_switch_map">Switch to Scientific Cartographic Map</string>
+    <string name="viewport_visual_aid_notice">Procedural Visual Aid — Authentic Datasets in Scientific Map</string>
+    <string name="target_acquired">TARGET ACQUIRED</string>
+    <string name="sound_toggle">Sound Effects</string>
+    <string name="quality_mode">Visual Quality</string>
+    <string name="reduced_motion">Reduced Motion</string>
+    <string name="quality_high">High (Full Parallax &amp; Stars)</string>
+    <string name="quality_medium">Medium (Balanced Particles)</string>
+    <string name="quality_low">Low (Battery Saver)</string>
+
+    <!-- Phase 5 Visual Transformation -->
+    <string name="mission_sol_readout">SOL %1$d | %2$s LMT</string>
+    <string name="mission_status_orbital">ORBITAL RECONNAISSANCE</string>
+    <string name="mission_status_surface">SURFACE OPERATIONS</string>
+    <string name="mission_data_integrity">SOURCE VERIFIED // NASA PDS</string>
+    <string name="mission_guide_label">MISSION GUIDE</string>
+    <string name="mission_guide_desc">Technical documentation and data provenance for current mission sector.</string>
+    <string name="nasa_media_available">NASA MEDIA AVAILABLE</string>
+    <string name="nasa_media_offline">OFFLINE // NO MEDIA CACHED</string>
+    <string name="system_ready">SYSTEM READY</string>
+    <string name="initializing_system">INITIALIZING MARS//GUIDE...</string>
+    <string name="loading_scientific_data">SYNCING SCIENTIFIC DATA...</string>
+    <string name="loading_mission_media">FETCHING NASA MEDIA...</string>
+    <string name="enter_mission">ENTER MISSION</string>
+    <string name="data_class_procedural">PROCEDURAL VISUAL</string>
+    <string name="data_class_calculated">LOCAL CALCULATION</string>
+    <string name="data_class_nasa">NASA SOURCE-DERIVED</string>
+    <string name="data_class_estimated">INTERPOLATED ESTIMATE</string>
+    <string name="view_full_source">VIEW SOURCE</string>
+    <string name="save_media">SAVE TO ARCHIVE</string>
+    <string name="target_recon">SURFACE RECONNAISSANCE</string>
+    <string name="elevation_datum_mola">ELEVATION (MOLA DATUM)</string>
+    <string name="geological_context_label">GEOLOGICAL CONTEXT</string>
+    <string name="provenance_label">DATA PROVENANCE</string>
+    <string name="mission_dashboard">COMMAND DECK</string>
+    <string name="exploration_targets">EXPLORATION TARGETS</string>
+    <string name="rover_telemetry">ROVER TELEMETRY (HISTORICAL)</string>
+    <string name="mission_archive">MISSION ARCHIVE</string>
+    <string name="sources_and_attribution">SOURCES &amp; ATTRIBUTION</string>
+    <string name="app_description">Advanced Martian Exploration &amp; Scientific Navigation System.</string>
+    <!-- Phase 7 Immersive Mission Experience -->
+    <string name="mission_system_label">MARTIAN EXPLORATION SYSTEM</string>
+    <string name="mission_control_link">MISSION CONTROL LINK</string>
+    <string name="sys_status_ready">READY</string>
+    <string name="sys_status_offline">OFFLINE</string>
+    <string name="sys_status_available">AVAILABLE</string>
+    <string name="boot_initializing">SYSTEM POWER INITIALIZING...</string>
+    <string name="boot_comm_bus">COMMUNICATION BUS READY</string>
+    <string name="boot_science_db">SCIENTIFIC DATABASE READY</string>
+    <string name="boot_media_link">NASA MEDIA LINK READY</string>
+    <string name="boot_carto_engine">CARTOGRAPHIC ENGINE READY</string>
+    <string name="command_deck_label">COMMAND DECK</string>
+    <string name="audio_ambience_label">SPACECRAFT AMBIENCE</string>
+    <string name="audio_radio_label">RADIO CHATTER</string>
+    <string name="audio_ui_label">INTERFACE TONES</string>
+    <string name="audio_alerts_label">MISSION ALERTS</string>
+    <string name="comm_link_standby">● STANDBY</string>
+    <string name="comm_link_receiving">● RECEIVING</string>
+    <string name="view_mode_orbital">ORBITAL VIEW</string>
+    <string name="view_mode_surface">SURFACE VIEW</string>
+    <string name="view_mode_media">MISSION MEDIA</string>
+    <string name="nav_command">COMMAND</string>
+    <string name="nav_archive">ARCHIVE</string>
+    <string name="nav_sources">SOURCES</string>
+    <string name="learn_more_prompt">TAP TELEMETRY TO LEARN</string>
+    <string name="mission_audio_sim">SIMULATED RADIO AMBIENCE</string>
+
+    <!-- Phase 11 Interactive 3D Mars Globe & NASA Exploration -->
+    <string name="globe_title">3D MARS GLOBE</string>
+    <string name="globe_layer_surface">SURFACE</string>
+    <string name="globe_layer_topography">TOPOGRAPHY</string>
+    <string name="globe_layer_geology">GEOLOGY</string>
+    <string name="globe_layer_missions">MISSIONS</string>
+    <string name="globe_layer_rovers">ROVERS</string>
+    <string name="globe_layer_imagery">IMAGERY</string>
+    <string name="globe_layer_temperature">TEMPERATURE</string>
+    <string name="globe_layer_science">SCIENCE</string>
+    <string name="globe_layer_routes">ROUTES</string>
+
+    <string name="globe_reset_view">RESET GLOBE</string>
+    <string name="globe_target_locked">TARGET ACQUIRED</string>
+    <string name="globe_flight_approach">APPROACH TRAJECTORY</string>
+    <string name="globe_flight_arrival">ORBITAL SYNCHRONIZATION COMPLETE</string>
+    <string name="globe_flight_skip">SKIP FLIGHT</string>
+
+    <string name="panorama_available">360° ROVER PANORAMA AVAILABLE</string>
+    <string name="panorama_enter">ENTER 360° PANORAMA</string>
+    <string name="panorama_exit">EXIT PANORAMA</string>
+    <string name="panorama_none_available">NO AUTHENTIC PANORAMA AVAILABLE</string>
+    <string name="panorama_orbital_only">Orbiter Reconnaissance Only — No Landed Rover At Site</string>
+    <string name="panorama_view_imagery">VIEW NASA ORBITAL IMAGERY</string>
+    <string name="panorama_authentic_badge">AUTHENTIC NASA MISSION PANORAMA / MOSAIC</string>
+
+    <string name="env_surface_conditions">SURFACE CONDITIONS</string>
+    <string name="env_temperature_label">TEMPERATURE</string>
+    <string name="env_pressure_label">ATMOSPHERIC PRESSURE</string>
+    <string name="env_solar_flux">SOLAR FLUX</string>
+    <string name="env_model_provenance">NASA-DERIVED CLIMATE MODEL // VIKING &amp; REMS</string>
+
+    <string name="audio_master_label">MASTER VOLUME</string>
+    <string name="audio_mute_all">MUTE ALL AUDIO</string>
+</resources>
